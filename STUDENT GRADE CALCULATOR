@@ -1,0 +1,35 @@
+cd C:\Users\mir atir hussain\OneDrive\Documents\NetBeansProjects\Internship_project; "JAVA_HOME=C:\\Program Files\\Java\\jdk-20" cmd /c "\"C:\\Program Files\\NetBeans-20\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Java\\jdk-20\\bin\\java.exe\" -Dexec.mainClass=com.mycompany.internship_project.Student_grade_calculator -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-20\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+------------------< com.mycompany:Internship_project >------------------
+Building Internship_project 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ Internship_project ---
+skip non existing resourceDirectory C:\Users\mir atir hussain\OneDrive\Documents\NetBeansProjects\Internship_project\src\main\resources
+
+--- compiler:3.11.0:compile (default-compile) @ Internship_project ---
+Nothing to compile - all classes are up to date
+
+--- exec:3.1.0:exec (default-cli) @ Internship_project ---
+ How many subject
+5
+Enter 1 subject marks  between 0 to 100
+50
+Enter 2 subject marks  between 0 to 100
+100
+Enter 3 subject marks  between 0 to 100
+99
+Enter 4 subject marks  between 0 to 100
+42
+Enter 5 subject marks  between 0 to 100
+10
+Total marks is  500 by 301 Avgerage percentage 60
+Grade D
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  20.051 s
+Finished at: 2024-10-20T19:19:31+05:30
+------------------------------------------------------------------------
